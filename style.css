@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECF2F8;
+}
+
+.container {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    max-width: 1120px;
+    display: grid;
+    margin: 40px auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira";
+    gap: 25px;
+}
+
+.big-bold-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.shape {
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.small-bold-text {
+    font-size: 14px;
+    color: rgb(171, 168, 168);
+}
+
+.title-text {
+    font-size: 14px;
+    color: #fff;
+}
+
+.subtitle-text {
+    font-size: 10px;
+    color: rgb(171, 168, 168);
+}
+
+.daniel {
+    grid-area: daniel;
+    background-color: #7541C8;
+}
+
+.jonathan {
+    grid-area: jonathan;
+    background-color: #48556A;
+}
+
+.kira {
+    grid-area: kira;
+    background-color: #FFFFFF;
+}
+
+.text-color-black {
+    color: #5f5e5e;
+}
+
+.jeanette {
+    grid-area: jeanette;
+    background-color: #FFFFFF;
+}
+
+.patrick {
+    grid-area: patrick;
+    background-color: #19212E;
+}
+
+img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+.left {
+    padding-left: 15px;
+}
